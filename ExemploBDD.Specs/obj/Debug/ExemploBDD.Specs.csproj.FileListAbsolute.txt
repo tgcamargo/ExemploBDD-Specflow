@@ -1,0 +1,14 @@
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\ExemploBDD.Specs.dll.config
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\ExemploBDD.Specs.dll
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\ExemploBDD.Specs.pdb
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\ExemploBDD.dll
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\ExemploBDD.pdb
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.csprojResolveAssemblyReference.cache
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.dll
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.pdb
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\nunit.framework.dll
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\WebDriver.dll
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\nunit.framework.xml
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\WebDriver.xml
