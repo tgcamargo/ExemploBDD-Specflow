@@ -47,13 +47,14 @@ namespace ExemploBDD.Specs
         [When(@"eu clicar em ""(.*)""")]
         public void QuandoEuClicarEm(string p0)
         {
-            var opcaoMenu = _Driver.FindElements(By.ClassName("avia_textblock"));
+            var opcaoMenu = _Driver.FindElements(By.XPath("//ul//li"));
 
             for (int i = 0; i < opcaoMenu.Count; i++)
             {
                 if (opcaoMenu[i].Text == p0)
                 {
                     opcaoMenu[i].Click();
+                    break;
                 }
             }
 

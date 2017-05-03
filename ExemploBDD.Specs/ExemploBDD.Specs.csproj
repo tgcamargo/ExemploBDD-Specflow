@@ -65,27 +65,37 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="ConvTemperatura.feature.cs">
+    <Compile Include="Features\Calculadora.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Calculadora.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\ConvTemperatura.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ConvTemperatura.feature</DependentUpon>
     </Compile>
-    <Compile Include="ConvTemperaturaStepDefinition.cs" />
-    <Compile Include="ExemploBDDSelenium.feature.cs">
+    <Compile Include="Steps\CalculadoraStepDefinition.cs" />
+    <Compile Include="Steps\ConvTemperaturaStepDefinition.cs" />
+    <Compile Include="Features\ExemploBDDSelenium.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ExemploBDDSelenium.feature</DependentUpon>
     </Compile>
-    <Compile Include="ExemploBDDSeleniumStepDefinition.cs" />
+    <Compile Include="Steps\ExemploBDDSeleniumStepDefinition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ConvTemperatura.feature">
+    <None Include="Features\Calculadora.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Calculadora.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\ConvTemperatura.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ConvTemperatura.feature.cs</LastGenOutput>
     </None>
-    <None Include="ExemploBDDSelenium.feature">
+    <None Include="Features\ExemploBDDSelenium.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ExemploBDDSelenium.feature.cs</LastGenOutput>
     </None>

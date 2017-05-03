@@ -12,3 +12,17 @@ C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Sp
 C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\WebDriver.dll
 C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\nunit.framework.xml
 C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\WebDriver.xml
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\ExemploBDD.Specs.dll.config
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\ExemploBDD.Specs.dll
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\ExemploBDD.Specs.pdb
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\ExemploBDD.dll
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\nunit.framework.dll
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\WebDriver.dll
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\ExemploBDD.pdb
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\nunit.framework.xml
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\bin\Debug\WebDriver.xml
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.csprojResolveAssemblyReference.cache
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.dll
+C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.pdb
