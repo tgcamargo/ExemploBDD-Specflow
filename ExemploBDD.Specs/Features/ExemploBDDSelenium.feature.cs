@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace ExemploBDD.Specs
+namespace ExemploBDD.Specs.Features
 {
     using TechTalk.SpecFlow;
     
@@ -49,7 +49,7 @@ namespace ExemploBDD.Specs
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "Visitar a documentação do SpecFlow")))
             {
-                ExemploBDD.Specs.VisitarADocumentacaoDoSpecFlowFeature.FeatureSetup(null);
+                ExemploBDD.Specs.Features.VisitarADocumentacaoDoSpecFlowFeature.FeatureSetup(null);
             }
         }
         
