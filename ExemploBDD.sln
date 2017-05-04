@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploBDD", "ExemploBDD\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploBDD.Specs", "ExemploBDD.Specs\ExemploBDD.Specs.csproj", "{609BDE7E-1DC4-4562-9A7B-3A069C150BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "..\Calculator\Calculator\Calculator.csproj", "{DFDF5275-692D-4E4A-BB8E-5B3550CC1882}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{DFDF5275-692D-4E4A-BB8E-5B3550CC1882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "..\Calculator\Calculator.Tests\Calculator.Tests.csproj", "{BB92F4D0-61FD-4F61-847E-F5C7287DD147}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Calculator.Tests\Calculator.Tests.csproj", "{BB92F4D0-61FD-4F61-847E-F5C7287DD147}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
