@@ -12,7 +12,7 @@ Os testes estão presentes na feature utilizando os passos que fazem chamada a f
 
 - Teste de aplicação web utilizando Specflow + Selenium + PageObjects:
 A aplicação se encontra no projeto "Calculator" e os testes estão presentes no projeto "Calculator.Tests/Features".
-É possivel ver na parte de Steps do projeto que a chamado às funcionalidades do Selenium são realizadas através de PageObjects, deixando a funcionalidade as features e steps mais simples.
+É possivel ver na parte de Steps do projeto que a chamado às funcionalidades do Selenium são realizadas através de PageObjects, deixando as features e steps mais simples.
 
 
 Os exemplos foram encontrados na comunidade, adaptados e inseridos na mesma solution.
