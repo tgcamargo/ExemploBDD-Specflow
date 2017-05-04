@@ -14,14 +14,28 @@ namespace ExemploBDD.Specs
     public sealed class ExemploBDDSeleniumStepDefinition
     {
         // For additional details on SpecFlow step definitions see http://go.specflow.org/doc-stepdef
-
         private static IWebDriver _Driver;
+
+        [BeforeTestRun]
+        public static void BeforeTestRun()
+        {
+            _Driver = new ChromeDriver();
+            _Driver.Manage().Window.Maximize();
+        }
+
+        [AfterTestRun]
+        public static void AfterTestRun()
+        {
+            if (_Driver != null)
+            {
+                _Driver.Dispose(); //dispose will run Quit() automatically for the driver
+                _Driver = null;
+            }
+        }
 
         [Given(@"que eu entrei na tela inicial do site SpecFlow")]
         public void DadoQueEuEntreiNaTelaInicialDoSiteSpecFlow()
         {
-            _Driver = new ChromeDriver();
-            _Driver.Manage().Window.Maximize();
             _Driver.Navigate().GoToUrl("http://specflow.org/");
             Assert.IsTrue(_Driver.Url.ToString().Equals("http://specflow.org/"));
         }
@@ -65,28 +79,28 @@ namespace ExemploBDD.Specs
         public void EntaoDevoSerLevadoParaAPaginaDaDocumentacaoSobreAInstalacaoDoSpecFlow_()
         {
             Assert.IsTrue(_Driver.Url.ToString().Equals("http://specflow.org/documentation/Installation/"));
-            _Driver.Quit();
+           
         }
 
         [Then(@"devo ser levado para a página de demonstração da configuração padrão do SpecFlow.")]
         public void EntaoDevoSerLevadoParaAPaginaDeDemonstracaoDaConfiguracaoPadraoDoSpecFlow()
         {
             Assert.IsTrue(_Driver.Url.ToString().Equals("http://specflow.org/documentation/Configuration/"));
-            _Driver.Quit();
+            
         }
                
         [Then(@"devo ser levado para a página da documentação sobre Bindings do SpecFlow\.")]
         public void EntaoDevoSerLevadoParaAPaginaDaDocumentacaoSobreBindingsDoSpecFlow_()
         {
            Assert.IsTrue(_Driver.Url.ToString().Equals("http://specflow.org/documentation/Bindings/"));
-            _Driver.Quit();
+           
         }
 
         [Then(@"devo ser levado para a página de FAQ do SpecFlow\.")]
         public void EntaoDevoSerLevadoParaAPaginaDeFAQDoSpecFlow_()
         {
             Assert.IsTrue(_Driver.Url.ToString().Equals("http://specflow.org/documentation/FAQ/"));
-            _Driver.Quit();
+            
         }
 
 

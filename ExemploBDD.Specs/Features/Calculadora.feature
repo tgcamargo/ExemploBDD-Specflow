@@ -52,3 +52,13 @@ Exemplos:
 	| 10      | 10      | 1      |
 	| 22      | 1       | 22     |
 	| 49      | 7       | 7      |
+
+	Esquema do Cenario: exponente de dois numeros
+	Dado que eu insiro o número <Number1> na calculadora
+	E eu também insiro o número <Number2> na calculadora
+	Quando eu pressiono exponente
+	Então o resultado mostrado na tela será <Result>
+	Exemplos: 
+	| Number1 | Number2 | Result |
+	| 9		  | 2       | 81     |
+	| 2       | 3       | 8      |

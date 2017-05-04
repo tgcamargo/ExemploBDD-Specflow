@@ -342,6 +342,49 @@ this.ScenarioSetup(scenarioInfo);
             this.DivisaoDeDoisNumeros("49", "7", "7", ((string[])(null)));
 #line hidden
         }
+        
+        public virtual void ExponenteDeDoisNumeros(string number1, string number2, string result, string[] exampleTags)
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("exponente de dois numeros", exampleTags);
+#line 56
+ this.ScenarioSetup(scenarioInfo);
+#line 57
+ testRunner.Given(string.Format("que eu insiro o número {0} na calculadora", number1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+#line 58
+ testRunner.And(string.Format("eu também insiro o número {0} na calculadora", number2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+#line 59
+ testRunner.When("eu pressiono exponente", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+#line 60
+ testRunner.Then(string.Format("o resultado mostrado na tela será {0}", result), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("exponente de dois numeros: 9")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Calculadora")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "9")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number1", "9")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number2", "2")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "81")]
+        public virtual void ExponenteDeDoisNumeros_9()
+        {
+            this.ExponenteDeDoisNumeros("9", "2", "81", ((string[])(null)));
+#line hidden
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("exponente de dois numeros: 2")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Calculadora")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "2")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number1", "2")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number2", "3")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "8")]
+        public virtual void ExponenteDeDoisNumeros_2()
+        {
+            this.ExponenteDeDoisNumeros("2", "3", "8", ((string[])(null)));
+#line hidden
+        }
     }
 }
 #pragma warning restore

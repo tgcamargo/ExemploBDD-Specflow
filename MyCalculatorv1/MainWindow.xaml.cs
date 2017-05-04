@@ -1,7 +1,4 @@
-﻿//houssem.dellai@ieee.org 
-//+216 95 325 964 
-
-using System;
+﻿using System;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -16,7 +13,7 @@ namespace MyCalculatorv1
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Button b = (Button) sender;
+            Button b = (Button)sender;
             tb.Text += b.Content.ToString();
         }
 
@@ -56,7 +53,7 @@ namespace MyCalculatorv1
             {
                 //error
             }
-            
+
             op = tb.Text.Substring(iOp, 1);
             double op1 = Convert.ToDouble(tb.Text.Substring(0, iOp));
             double op2 = Convert.ToDouble(tb.Text.Substring(iOp + 1, tb.Text.Length - iOp - 1));

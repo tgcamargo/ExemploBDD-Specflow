@@ -60,5 +60,12 @@ namespace ExemploBDD.Specs.Steps
         {
             _calculator.Divide();
         }
+
+        [When(@"eu pressiono exponente")]
+        public void QuandoEuPressionoExponente()
+        {
+            _calculator.Exponential();
+        }
+
     }
 }

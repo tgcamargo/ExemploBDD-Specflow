@@ -32,5 +32,15 @@ namespace ExemploBDD
         {
             Result = FirstNumber / SecondNumber;
         }
+
+        public void Exponential()
+        {
+            var exponential = FirstNumber;
+            for (int i = 1; i < SecondNumber; i++)
+            {
+                FirstNumber *= exponential;
+            }
+            Result = FirstNumber;
+        }
     }
 }

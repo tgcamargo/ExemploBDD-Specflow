@@ -69,23 +69,29 @@ namespace ExemploBDD.Specs.Features
             testRunner.CollectScenarioErrors();
         }
         
+        public virtual void FeatureBackground()
+        {
+#line 6
+ #line 7
+ testRunner.Given("que eu entrei na tela inicial do site SpecFlow", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+#line hidden
+        }
+        
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Visualizar a documentação da instalação do SpecFlow")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Visitar a documentação do SpecFlow")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         public virtual void VisualizarADocumentacaoDaInstalacaoDoSpecFlow()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Visualizar a documentação da instalação do SpecFlow", new string[] {
-                        "mytag"});
-#line 7
-this.ScenarioSetup(scenarioInfo);
-#line 8
- testRunner.Given("que eu entrei na tela inicial do site SpecFlow", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Visualizar a documentação da instalação do SpecFlow", ((string[])(null)));
 #line 9
- testRunner.And("cliquei no item \"Documentation\", no menu horizontal do topo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+this.ScenarioSetup(scenarioInfo);
+#line 6
+ this.FeatureBackground();
 #line 10
- testRunner.When("eu clicar em \"Installation\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.And("cliquei no item \"Documentation\", no menu horizontal do topo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line 11
+ testRunner.When("eu clicar em \"Installation\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+#line 12
  testRunner.Then("devo ser levado para a página da documentação sobre a instalação do SpecFlow.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
 #line hidden
             this.ScenarioCleanup();
@@ -97,10 +103,10 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void VisualizarADocumentacaoDaConfiguracaoPadraoDoSpecFlow()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Visualizar a documentação da configuração padrão do SpecFlow", ((string[])(null)));
-#line 13
-this.ScenarioSetup(scenarioInfo);
 #line 14
- testRunner.Given("que eu entrei na tela inicial do site SpecFlow", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+this.ScenarioSetup(scenarioInfo);
+#line 6
+ this.FeatureBackground();
 #line 15
  testRunner.And("cliquei no item \"Documentation\", no menu horizontal do topo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line 16
@@ -120,13 +126,13 @@ this.ScenarioSetup(scenarioInfo);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Visualizar a documentação de Bindings do SpecFlow", ((string[])(null)));
 #line 19
 this.ScenarioSetup(scenarioInfo);
+#line 6
+ this.FeatureBackground();
 #line 20
- testRunner.Given("que eu entrei na tela inicial do site SpecFlow", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
-#line 21
  testRunner.And("cliquei no item \"Documentation\", no menu horizontal do topo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
-#line 22
+#line 21
  testRunner.When("eu clicar em \"Bindings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
-#line 23
+#line 22
  testRunner.Then("devo ser levado para a página da documentação sobre Bindings do SpecFlow.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
 #line hidden
             this.ScenarioCleanup();
@@ -138,15 +144,15 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void VisualizarAPaginaDeFAQDoSpecFlow()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Visualizar a página de FAQ do SpecFlow", ((string[])(null)));
-#line 25
+#line 24
 this.ScenarioSetup(scenarioInfo);
-#line 26
- testRunner.Given("que eu entrei na tela inicial do site SpecFlow", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
-#line 27
+#line 6
+ this.FeatureBackground();
+#line 25
  testRunner.And("cliquei no item \"Documentation\", no menu horizontal do topo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
-#line 28
+#line 26
  testRunner.When("eu clicar em \"FAQ\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
-#line 29
+#line 27
  testRunner.Then("devo ser levado para a página de FAQ do SpecFlow.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
 #line hidden
             this.ScenarioCleanup();

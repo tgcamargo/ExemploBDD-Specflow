@@ -26,3 +26,4 @@ C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploB
 C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.csprojResolveAssemblyReference.cache
 C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.dll
 C:\Users\Kuro\Documents\Visual Studio 2015\Projects\ExemploBDD-Specflow\ExemploBDD.Specs\obj\Debug\ExemploBDD.Specs.pdb
+C:\Users\tcamargo\Documents\Visual Studio 2015\Projects\ExemploBDD\ExemploBDD.Specs\bin\Debug\phantomjs.exe
